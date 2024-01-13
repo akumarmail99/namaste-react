@@ -4,11 +4,16 @@
   "description": "Namaste React Learning",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel index.html"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "parcel": "^2.11.0"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.11.0",
+    "process": "^0.11.10"
   }
 }

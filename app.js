@@ -1,16 +1,9 @@
-const header = React.createElement('h1', {
-    id: 'parent'
-}, [React.createElement('div', {id: 'child'}, 
-    [
-        React.createElement('h1', {}, 'I am H1 Tag'), 
-        React.createElement('h2', {}, 'I am H2 Tag')
-    ]
-), React.createElement('div', {id: 'child2'}, 
-    [
-        React.createElement('h1', {}, 'I am H1 Tag'), 
-        React.createElement('h2', {}, 'I am H2 Tag')
-    ]
-)]);
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+
+const jsxHeader = (<h1 id='header'>
+    Hello World From JSX!
+    </h1>);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(header);
+root.render(jsxHeader);
